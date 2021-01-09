@@ -1,24 +1,23 @@
 # kadai2
 ロボットシステム学2020課題2　ROSパッケージ
-# 概要
+## 概要
 
 「ROS」を入力するとモールス信号での”R”,”O”,”S”がledで光り、「1」を入力するとledが点灯、「0」を入力するとledが消灯するROSパッケージです。
-
-改造した部分は、Subscriber
-
-
-
-
-# 動作環境
+  
+Toda sayaka さんのROSパッケージを参考にしました。
+  
+改造した部分は、PublisherからSubscriber送信するメッセージの型をStringに変更、Subscriberを自分の行いたいないように改造しました。
+---
+## 動作環境
 |||
 |:--:|:--:|
 | Raspberry Pi | Raspberry Pi Model 3B+ |
 | OS | Ubuntu 20.04 |
 | ROS | ROS Noetic |
 
-# 実行方法
+## 実行方法
 ```
-$ cd ~/catkin/src
+$ cd ~/catkin_ws/src
 $ git clone https://github.com/masuko-shingo/kadai2.git     //このリポジトリをローカルにクローンする
 $ cd ..
 $ catkin_make     //ビルドする
@@ -30,12 +29,12 @@ $ roslaunch kadai2 led.launch     //ローンチファイルの実行
 $ sudo rmmod myled.ko       //カーネルモジュールのアンインストール
 ```
 
-# 回路図
+## 回路図
 ![回路図ロボシス課題１](https://user-images.githubusercontent.com/72721963/101239901-aa4b0a80-372e-11eb-9ddb-fcbab11e1ce7.png)
 
-# 動画
+## 動画
 
-# Copyright
+## Copyright
 Copyright © (Free Software Foundation, Inc.) 2020  Sayaka Toda + Shingo Masuko. 
 
 This program is free software: you can redistribute it and/or modify
