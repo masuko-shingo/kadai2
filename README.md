@@ -6,7 +6,7 @@
   
 Toda sayaka さんのROSパッケージを参考にしました。
   
-改造した部分は、PublisherからSubscriber送信するメッセージの型をStringに変更、Subscriberを自分の行いたいないように改造しました。
+改造した部分は、PublisherからSubscriber送信するメッセージの型をStringに変更、Subscriberにtimeライブラリを追加して自分の行いたい内容に改造しました。
 
 ---
 
