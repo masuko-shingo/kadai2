@@ -7,7 +7,9 @@
 Toda sayaka さんのROSパッケージを参考にしました。
   
 改造した部分は、PublisherからSubscriber送信するメッセージの型をStringに変更、Subscriberを自分の行いたいないように改造しました。
+
 ---
+
 ## 動作環境
 |||
 |:--:|:--:|
