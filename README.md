@@ -4,7 +4,7 @@
 
 「ROS」を入力するとモールス信号での”R”,”O”,”S”がledで光り、「1」を入力するとledが点灯、「0」を入力するとledが消灯するROSパッケージです。
   
-Toda sayaka さんのROSパッケージを参考にしました。
+Toda sayaka さんのROSパッケージを参考にしました。  
 Githubリンク
 https://github.com/todasayaka/led_national_flag
   
