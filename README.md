@@ -25,6 +25,7 @@ $ cd ~/catkin_ws/src
 $ git clone https://github.com/masuko-shingo/kadai2.git     //このリポジトリをローカルにクローンする
 $ cd ..
 $ catkin_make     //ビルドする
+$ source ~/.bashrc
 $ cd src/kadai2/myled
 $ make    //コンパイル
 $ sudo insmod myled.ko      //カーネルモジュールのインストール
